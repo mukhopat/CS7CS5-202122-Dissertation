@@ -24,4 +24,4 @@ def plot_line ( yplot, idx, df, folder_path, plot_name, major_locator ):
     if ( major_locator ):
         plt.gca().xaxis.set_major_locator(locator)
     plt.gcf().autofmt_xdate()
-    plt.savefig ( f'{folder_path}{idx}. {yplot}.jpg', bbox_inches = 'tight' )
+    plt.savefig ( f'{folder_path}{idx}. {plot_name}_{yplot}.jpg', bbox_inches = 'tight' )

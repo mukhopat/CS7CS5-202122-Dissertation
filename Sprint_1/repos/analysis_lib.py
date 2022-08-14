@@ -8,7 +8,7 @@ year_post_covid_ym = '2021-02'
 
 def calc_perc ( idx, length ):
     
-    perc = round ( (idx + 1) / length * 100 )
+    perc = (idx + 1) / length * 100
     return perc
 
 
@@ -21,6 +21,8 @@ def get_equilibrium_pc ( lst ):
             perc = calc_perc ( idx, len(lst) )
             if perc > 50:
                 perc = 50 - ( perc - 50 )
+                
+            perc = "{:.1f}".format(perc)
             return perc
 
 			
@@ -34,6 +36,8 @@ def get_pareto_pc ( lst ):
             perc = calc_perc ( idx, len(lst) )
             if perc > 80:
                 perc = 80
+                
+            perc = "{:.1f}".format(perc)
             return perc
 
 

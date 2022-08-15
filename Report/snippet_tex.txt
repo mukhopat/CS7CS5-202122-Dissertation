@@ -1,0 +1,8 @@
+%% Defaults for listings
+\lstset{language=Python, captionpos=b, frame=single}
+\captionsetup{width=.8\linewidth}
+
+%% Short caption for the table of listings - long caption for the explanation for the reader
+\includecode{Sample Code}{Lengthy caption explaining the code to the reader}{lst:snippet}{snippet.py}
+
+The code in listing~\ref{lst:snippet} is a demonstration how to include a file with code into the template.

@@ -1,0 +1,3 @@
+An example of how to reference a figure in the thesis document; see figure~\ref{fig:ImageOfAChick}.
+
+\includefigure{fig:ImageOfAChick}{An Image of a chick}{A caption should describe the figure to the reader and explain to the reader the meaning of the figure. A Sub-clause of Murphy's Law: If the interpretation of a figure is left to a reader, the reader will misinterpret the figure, feel insulted or decide to ignore it. Do not leave it up to the reader!}{image.png}

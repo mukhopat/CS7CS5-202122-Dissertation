@@ -1,0 +1,16 @@
+\begin{table}[!h]
+\begin{center}
+	\begin{tabular}{|l|c|c|} 
+	\hline
+ 	\bf  & \bf Column 2  & \bf Column 3 \\
+  	\hline
+	Row 1 & Item 1 & Item 2 \\
+	Row 2 & Item 1 & Item 2 \\
+	Row 3 & Item 1 & Item 2 \\
+	Row 4 & Item 1 & Item 2 \\
+	\hline
+	\end{tabular}
+\end{center}
+\caption[Comparison of Closely-Related Projects]{Caption that explains the table to the reader}	
+\label{tab:SummaryProjects}
+\end{table}
